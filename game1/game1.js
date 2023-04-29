@@ -4,6 +4,7 @@ var ballSize = 40;
 var score = 0;
 var gameState = "title";
 var playButton;
+var restartButton; // Add this line for the restart button
 
 function preload() {
   tt = loadImage('https://artofclc.github.io/game1/title.png');
