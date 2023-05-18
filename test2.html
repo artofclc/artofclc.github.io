@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Christina's Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<style>
+	body {
+  		font-family: 'Dosis', sans-serif;
+  		font-size: 20px;
+  		color: #000;
+  		margin: 0;
+  		padding: 0;
+	}
+
+	h1 {
+  		text-align: center;
+  		margin-top: 50px;
+  		letter-spacing: 2px; /* added letter-spacing property */
+	}
+
+	nav {
+  		text-align: center;
+  		margin-top: 30px;
+	}
+
+	nav ul {
+  		list-style: none;
+  		padding: 0;
+  		margin: 0;
+	}
+
+	nav li {
+  		display: inline-block;
+  		margin: 0 10px;
+  		position: relative;
+  		min-width: 120px;
+	}
+
+	nav li a {
+  		display: block;
+  		padding: 10px;
+  		text-decoration: none;
+  		font-size: 20px;
+  		color: #939799;
+	}
+
+	nav ul ul {
+  		background-color: #fff;
+  		border: none;
+  		padding: 0;
+  		position: absolute;
+  		top: 100%;
+  		z-index: 999;
+  		min-width: 120px;
+	}
+
+	nav li ul {
+  		display: none;
+  		position: absolute;
+  		top: 40px;
+  		left: 0;
+  		width: 100%;
+	}
+
+	nav li:hover > ul {
+  		display: block;
+	}
+
+	nav li ul li a:hover {
+  		background-color: #ddd;
+	}
+
+	.center {
+  		text-align: center;
+  		margin: 50px auto;
+  		max-width: 800px;
+	}
+	
+	.gallery {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 50px;
+	}
+	
+	.gallery img {
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		margin: 20px;
+		object-fit: cover;
+		transition: transform 0.2s ease-in-out;
+	}
+	
+	.gallery img:hover {
+		transform: scale(1.05);
+	}
+	
+	.social-media-icons {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		margin: 5px;
+	}
+
+	.social-media {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+
+	.social-media img {
+		filter: grayscale(100%);
+		width: 30px;
+		height: 30px;
+	}
+</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="face.jpg" alt="maface" width="100%">
+			</div>
+			<div class="col-md-8">
+				<h1>CHRISTINA CICCHELLI</h1> 
+				<nav>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="tradart.html">TRADITIONAL</
